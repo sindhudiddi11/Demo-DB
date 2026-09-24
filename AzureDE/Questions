@@ -1,1 +1,125 @@
-aa
+AZURE DATA ENGINEER – TOP 100 INTERVIEW QUESTIONS
+
+Project & Architecture
+
+1. Walk me through your day-to-day work.
+2. Tell me about your current project.
+3. Explain your project architecture end to end.
+4. What are your source systems?
+5. Why did you choose those source systems?
+6. Walk me through the complete data flow from source to reporting.
+7. What does Azure Data Factory (ADF) do in your architecture?
+8. What does Azure Databricks do?
+9. What does Azure Data Lake Storage Gen2 do?
+10. Where do you store metadata?
+11. What does Azure Function do?
+12. Why did you introduce Azure Function?
+13. Why did you choose Delta Lake?
+14. Why Synapse Analytics instead of Serverless SQL?
+15. Why Serverless SQL instead of Synapse?
+16. What is Microsoft Purview and where does it fit?
+17. Why did you use Microsoft Purview?
+18. How does Purview capture lineage?
+19. Who are your downstream consumers?
+20. How do Data Scientists consume your data?
+
+Migration Project
+
+21. What were you migrating from?
+22. What were you migrating to?
+23. Why was the legacy architecture a problem?
+24. How many SQL queries did you migrate?
+25. How many tables did you migrate?
+26. How did you identify which objects to migrate?
+27. How did you validate migrated data?
+28. How did you ensure there was no reporting disruption?
+29. What testing strategy did you follow?
+30. What were the final business results?
+
+Metadata Framework
+
+31. What metadata did you store?
+32. Why did you store metadata in Azure SQL Database?
+33. How was the metadata used?
+34. How did Azure Function read the metadata?
+35. How did Azure Data Factory use the metadata?
+36. What configurations were stored?
+37. Did you store scheduling information?
+38. Did you store full-load vs incremental-load information?
+39. How did schema evolution work?
+40. How did you onboard a new table using metadata?
+
+Azure Function & ADF
+
+41. What was the input to Azure Function?
+42. What was the output from Azure Function?
+43. What decision did Azure Function make?
+44. Why couldn't ADF read metadata directly?
+45. Why couldn't ADF pass parameters directly?
+46. What problem did Azure Function solve?
+47. If Azure Function were removed, would the system still work?
+48. Why is Azure Function necessary?
+49. Why Azure Data Factory instead of another orchestrator?
+50. How did ADF manage dependencies?
+51. How did retries work?
+52. How did scheduling work?
+53. How did failure handling work?
+54. How did ADF trigger Databricks notebooks?
+55. How did ADF trigger downstream Synapse loads?
+
+Azure Databricks & Delta Lake
+
+56. What transformations happened in Databricks?
+57. How did Databricks process incremental loads?
+58. How did Databricks process full loads?
+59. How did Databricks handle joins?
+60. How did Databricks handle aggregations?
+61. How did Databricks handle snapshot logic?
+62. Why choose Delta Lake?
+63. What benefits does Delta Lake provide?
+64. What is schema evolution?
+65. What are ACID transactions?
+66. What is Time Travel in Delta Lake?
+67. What is OPTIMIZE in Delta Lake?
+68. What is Z-Ordering?
+69. How did Delta Lake improve your project?
+70. How did you optimize Databricks performance?
+
+Data Modeling & SQL
+
+71. How would you normalize this insurance table?
+72. What entities would you create?
+73. What dimensions would you create?
+74. What fact tables would you create?
+75. How would you model policy information?
+76. How would you model customer information?
+77. How would you redesign the model for new transaction types?
+78. Why is your design scalable?
+79. Why is this SQL query slow?
+80. What problems do you see in this SQL query?
+81. What problems do you see in these table definitions?
+82. What distribution strategy would you choose in Synapse?
+83. Why choose that distribution strategy?
+84. What partitioning strategy would you choose?
+85. Why is COUNT(DISTINCT) expensive?
+86. How would you optimize this query?
+87. How would you reduce data shuffling?
+
+Production Support & Monitoring
+
+88. What monitoring did you implement?
+89. How did you monitor pipeline health?
+90. What data quality checks did you implement?
+91. How did you detect late-arriving data?
+92. How did you secure the solution using Key Vault, Managed Identity, and RBAC?
+93. How did you handle schema drift?
+94. What was the biggest production issue you faced?
+95. How did you resolve production failures?
+
+Behavioral & Business Impact
+
+96. Tell me about a complex problem you solved with a simple solution.
+97. Tell me about a time you took ownership beyond your assigned responsibilities.
+98. Tell me about a time you improved an existing process.
+99. How did you measure project success and business impact?
+100. If you were designing this Azure architecture today, what would you change and why?

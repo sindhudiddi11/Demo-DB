@@ -1,0 +1,148 @@
+1. Your PySpark job loaded duplicate records into a Delta table. How would you identify and remove them safely?
+
+
+2. A PySpark job that normally completes in 15 minutes is now taking over 2 hours. How would you troubleshoot it?
+
+
+3. Write PySpark code to return the latest record for each customer from a history table.
+
+
+4. How would you identify missing dates in a transaction dataset using PySpark?
+
+
+5. Find the top 3 highest-selling products in each region using PySpark.
+
+
+6. Find customers who made purchases for three consecutive months.
+
+
+7. Identify users who logged in for seven consecutive days.
+
+
+8. Calculate a running account balance after each transaction.
+
+
+9. Find gaps in invoice numbers using PySpark.
+
+
+10. Merge overlapping date ranges for employee leave records.
+
+
+11. Find duplicate records based on multiple columns while keeping only the latest record.
+
+
+12. Find employees earning more than the average salary in their department.
+
+
+13. Find the second highest salary in every department.
+
+
+14. Find customers who never placed an order.
+
+
+15. Find products that were never sold.
+
+
+16. Compare today's sales with yesterday's sales for every product.
+
+
+17. Compare this month's revenue with the previous month's revenue.
+
+
+18. Find the top-selling product every month, including ties.
+
+
+19. Find managers with more than five direct reports.
+
+
+20. Display the complete employee hierarchy using PySpark.
+
+
+21. Calculate the median salary without using built-in median functions.
+
+
+22. Identify customers whose purchase amount increased every month.
+
+
+23. Detect duplicate payments made within five minutes.
+
+
+24. Find all users who never logged out.
+
+
+25. Calculate the duration of every user session.
+
+
+26. Find the first and last transaction for every customer.
+
+
+27. Find the longest consecutive purchase streak for each customer.
+
+
+28. Detect overlapping bookings for the same room.
+
+
+29. Implement Slowly Changing Dimension (SCD Type 2) using PySpark.
+
+
+30. Implement incremental data loading using timestamps or watermarking.
+
+
+31. Find orphan records between parent and child datasets.
+
+
+32. Find departments where every employee earns more than ₹100,000.
+
+
+33. Find customers whose total purchase exceeds the average purchase of all customers.
+
+
+34. Find products whose sales dropped for three consecutive months.
+
+
+35. Identify the busiest hour of the day based on transactions.
+
+
+36. Find the percentage contribution of each product to total revenue.
+
+
+37. Rank employees by salary within each department.
+
+
+38. Find customers who purchased all available products.
+
+
+39. Find duplicate email addresses while ignoring case sensitivity.
+
+
+40. Remove duplicate rows from a billion-row DataFrame without impacting performance.
+
+
+41. A join between multiple large DataFrames is slow. What would you check first?
+
+
+42. A Spark job started failing with OutOfMemoryError after a recent deployment. How would you investigate?
+
+
+43. A shuffle stage is taking significantly longer than all other stages. How would you troubleshoot it?
+
+
+44. How would you identify and fix data skew in a PySpark job?
+
+
+45. How would you determine whether a broadcast join should be used?
+
+
+46. How would you analyze the Spark UI to troubleshoot a slow job?
+
+
+47. How would you partition a billion-row dataset to improve performance?
+
+
+48. How would you optimize the small files problem in a Delta Lake table?
+
+
+49. How would you ensure data consistency during concurrent writes to a Delta table?
+
+
+50. Explain how you would troubleshoot a slow PySpark production job from start to finish.
